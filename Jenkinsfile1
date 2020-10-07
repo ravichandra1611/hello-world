@@ -3,7 +3,7 @@ node {
         git 'https://github.com/vikas99341/hello-world.git'
     }
     stage('Test') { 
-        echo " let's test the code"
+        echo " let's test the new code"
     }
     stage('Deploy') { 
         echo "Deoploying code to production"
