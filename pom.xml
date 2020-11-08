@@ -27,6 +27,16 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+     <repository>
+        <id>central</id>
+        <name>5ae5e92e2186-releases</name>
+        <url>http://3.139.96.92:8081/artifactory/new-maven-repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>central</id>
+        <name>5ae5e92e2186-snapshots</name>
+        <url>http://3.139.96.92:8081/artifactory/new-maven-repo</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <build>
